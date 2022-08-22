@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Дурак и Молния</title>
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body>
+    <style>
+        body {
+          margin: 40px;
+          background: url(img/thunderstorm.png) no-repeat center center fixed;
+          -webkit-background-size: cover;
+            -moz-background-size: cover;
+              -o-background-size: cover;
+                background-size: cover;
+        }
+        #image {
+            display: none;
+        }
+        .op {
+        opacity: 0.6;
+       	background: #FFFFFF;
+        padding: 5px;
+        border-radius: 5px;
+        }
+        .au {
+          margin-left: 40%
+        }
+        .but {
+          text-align: center;
+        }
+        .center-img {
+        display: block;
+        margin: 0 auto;
+        }
+
+
+    </style>
+    <div class="op">
+    <h2 align="center">1001001 1001100 1101111 1110110 1100101 1011001 1101111 1110101</h2>
+    <p align="center""><b>Это первая песня, которая стала ассоциироваться у нас друг с другом. Именно поэтому я и сделала обложку в этом стиле:)</b></p>
+    </div>
+    <br>
+
+
+
+    <div class="au">
+    <audio src="Король и Шут - Дурак и молния.mp3" controls></audio>
+    </div>
+    <br>
+    <br>
+
+    <div class="but">
+    <a href="https://www.desmos.com/calculator/3h5ibt7wdi?lang=ru" target="_blank"><button style="padding: 20px;
+      background: #52FFD0;
+      border: 0;
+      border-radius: 15px;
+      opacity: 0.6">  Немного математики (´｡• ω •｡`)  </button> </a>
+    </div>
+    <br>
+    
+
+    <div>
+
+        <img id="image" src="img/дождик.jpg"
+        width="500px"
+        class="center-img"
+        alt="GFG image" />
+    </div>
+    <div class="but">
+    <button type="button"
+        onclick="show()" id="btnID"
+        <button style="padding: 20px;
+          background: #C6B2FF;
+          border: 0;
+          border-radius: 15px;
+          opacity: 0.7">
+        Промокшие, но счастливые:)
+    </button>
+    </div>
+    <script>
+
+        function show() {
+            document.getElementById('image')
+                    .style.display = "block";
+
+            document.getElementById('btnID')
+                    .style.display = "none";
+        }
+    </script>
+
+
+  </body>
+</html>
